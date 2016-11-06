@@ -1,0 +1,62 @@
+@keyframes background-fade-in {
+  from{opacity: 0;}
+  to{opacity: 100;}
+}
+
+body{
+  animation: background-fade-in;
+  animation-duration: 1s;
+  animation-delay: 5;
+  margin: 0;
+  padding: 0;
+  background-image: url("res/bg-compressor.jpg");
+  background-size: cover;
+}
+
+div{
+    /*border: solid 1px green;*/
+}
+
+div#time{
+  /*margin-top: 2%;*/
+  position: absolute;
+  bottom: 8%;
+  left: 2%;
+  text-align: left;
+  font-size: 5em;
+  font-family:  "Open Sans";
+  color: rgba(255,255,255,0.8);
+  text-shadow: 2px 2px 5px #333333;
+}
+
+@keyframes fadein {
+  from {width: 30%;}
+  to {width: 40%;}
+}
+
+div#container{
+  /*padding: 10px;*/
+  margin: 7% auto 0% auto;
+  overflow: auto;
+  width: 40%;
+  animation: fadein;
+  animation-duration: 0.8s;
+}
+
+div.block{
+  padding-bottom: 10px;
+  width: 10%;
+  height: auto;
+  margin: 7.5%;
+  float: left;
+  text-align: center;
+  border-bottom: solid 0.5em transparent;
+  }
+
+div.block:hover{
+  border-color: rgba(255, 255, 255, 0.3);;
+}
+
+#date{
+  font-size: 50%;
+}

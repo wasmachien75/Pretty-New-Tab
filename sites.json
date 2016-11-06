@@ -1,0 +1,45 @@
+{
+  "sites": [
+    {
+      "name": "Reddit",
+      "url": "http://www.reddit.com",
+      "icon": "reddit.svg"
+    }, {
+      "name": "De Redactie",
+      "url": "http://www.deredactie.be",
+      "icon": "deredactie.svg"
+    }, {
+      "name": "Mozilla Developer Network",
+      "url": "https://developer.mozilla.org/en-US/",
+      "icon": "mdn.svg"
+    }, {
+      "name": "Google Drive",
+      "url": "http://drive.google.com",
+      "icon": "drive.svg"
+    }, {
+      "name": "Gmail",
+      "url": "http://mail.google.com",
+      "icon": "gmail.svg"
+    }, {
+      "name": "Google Maps",
+      "url": "http://maps.google.com",
+      "icon": "maps.svg"
+    }, {
+      "name": "Pocket Casts",
+      "url": "http://play.pocketcasts.com",
+      "icon": "pocketcasts.svg"
+    }, {
+      "name": "Sporza",
+      "url": "http://www.sporza.be",
+      "icon": "sporza.svg"
+    }, {
+      "name": "Google Translate",
+      "url": "http://translate.google.com",
+      "icon": "translate.svg"
+    }, {
+      "name": "Wikipedia",
+      "url": "http://en.wikipedia.org/wiki",
+      "icon": "wikipedia.svg"
+    }
+  ]
+}
