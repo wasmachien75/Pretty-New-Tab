@@ -8,24 +8,16 @@
   <div id="time"></div>
     <div id="container">
 
-        <div class="block"><a href="http://maps.google.com"><img src="res/maps.svg" /></a></div>
-        <div class="block"><a href="https://play.google.com/music/listen"><img src="res/playmusic.svg"/></a></div>
-        <div class="block"><a href="http://translate.google.com"><img src="res/translate.svg" /></a></div>
+        <div class="block"><a href="http://maps.google.com"><img src="res/jira.png" /></a></div>
+        <div class="block"><a href="https://play.google.com/music/listen"><img src="res/kb.jpg"/></a></div>
+        <div class="block"><a href="http://translate.google.com"><img src="res/ac.png" /></a></div>
         <div class="block"><a href="http://drive.google.com"><img src="res/drive.svg" /></a></div>
         <div class="block"><a href="http://www.sporza.be"><img src="res/sporza.svg" /></a></div>
         <div class="block"><a href="http://www.reddit.com"><img src="res/reddit.svg" /></a></div>
         <div class="block"><a href="http://play.pocketcasts.com"><img src="res/pocketcasts.svg" /></a></div>
-        <div class="block"><a href="http://en.wikipedia.org"><img src="res/wikipedia.svg" /></a></div>
+        <div class="block"><a href="http://www.theguardian.com"><img src="res/guardian.png" /></a></div>
     </div>
     <script>
-			var xhr = new XMLHttpRequest();
-			xhr.open("GET", "sites.json");
-			xhr.onreadystatechange = function() {
-					var sites = JSON.parse(xhr.responseText);
-					console.log(sites);
-			}
-			xhr.send();
-
       var getTime = function() {
         var days = ["Zondag", "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag"];
         var months = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
